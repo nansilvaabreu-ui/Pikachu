@@ -83,3 +83,12 @@ h1::before{
     align-items: center;
     gap: 1rem;
 }
+
+@media (min-width: 768px){
+    .hero-container p{
+        display: block;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+}
