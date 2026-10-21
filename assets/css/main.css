@@ -47,7 +47,7 @@ h1::before{
 
 .pikachu{
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
@@ -62,11 +62,24 @@ h1::before{
 }
 
 .hero-container h2{
-    font-size: 10.5vw;
+    font-size: 37px;
     text-align: center;
     color: var(--color-secondary);
 }
 
 .hero-container p{
     display: none;
+}
+
+.hero-container a{
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
