@@ -89,11 +89,24 @@ footer{
 }
 
 @media (min-width: 768px){
+    .pikachu{
+        width: auto;
+        height: 55vh;
+    
+    }
+    .hero-container h2 {
+        font-size: 65px;
+    }
     .hero-container p{
         display: block;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         text-align: center;
         color: var(--color-secondary);
+        width: 500px;
+    }
+    .hero-container a{
+        width: 420px;
+        height: 85px;
     }
 }
 
