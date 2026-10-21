@@ -6,3 +6,30 @@ body {
     padding: 2rem;
     font-family: var(--font-family);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-secondary);
+    z-index: 1;
+}
+
+.poke-bola {
+    width: 40px;
+    height: auto;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 22vw;
+    text-align: center;
+    color: white;
+    transform: translateY(20%);
+}
