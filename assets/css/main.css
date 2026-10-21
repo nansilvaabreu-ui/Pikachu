@@ -33,3 +33,14 @@ h1{
     color: white;
     transform: translateY(20%);
 }
+
+h1::before{
+    content: 'Pikachu';
+    color: #FFF5;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 27vw;
+}
